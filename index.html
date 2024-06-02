@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Loader</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <button id="loadProductsBtn">Tải sản phẩm</button>
+        <button id="showProductListBtn" style="display:none;">Danh sách sản phẩm</button>
+        <button id="searchProductBtn" style="display:none;">Tìm kiếm sản phẩm</button>
+        <button id="filterOptionsBtn" style="display:none;">Bộ lọc</button>
+
+        <div id="filterContainer" style="display:none;"></div>
+
+        <div class="space1"></div>
+        
+        <div id="searchContainer" style="display:none;">
+            <input type="text" id="searchInput" placeholder="Nhập từ khoá cần tìm">
+            <div id="searchResults"></div>
+        </div>
+
+        <div class="space"></div>
+
+        <div id="productList" style="display:none;"></div>
+
+       
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
